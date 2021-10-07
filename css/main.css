@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+.header__item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__item:nth-child(2n) {
+  margin: 0 32px;
+}
+
+.header__inner-link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  color: #83888F;
+}
+
+.header__link {
+  margin-top: 50px;
+}
+
+.about-us {
+  background-image: url(../images/Object.jpg);
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 45px;
+  border-radius: 10px;
+}
+
+.about-us h1 {
+  font-size: 40px;
+  line-height: 48px;
+  color: #fff;
+  font-family: 'Fraunces';
+  padding-top: 137px;
+  padding-left: 85px;
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #d4cece;
+  padding-top: 15px;
+  padding-left: 85px;
+}
+
+.our__commitment-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pic {
+  border-radius: 10px;
+  margin-left: 85px;
+  margin-top: 168px;
+}
+
+.our__commitment-left {
+  padding-top: 258px;
+  padding-left: 125px;
+}
+
+.our__commitment-left h1 {
+  font-size: 40px;
+  line-height: 48px;
+  font-family: 'Fraunces';
+  padding-bottom: 30px;
+  color: #333D4B;
+}
+
+.our__commitment-left p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #83888F;
+}
+
+.quality {
+  background-color: #292f38;
+  width: 1440px;
+  height: 480px;
+  margin-top: 250px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.quality h1 {
+  font-size: 40px;
+  line-height: 48px;
+  color: #fff;
+  font-family: 'Fraunces';
+  padding-top: 100px;
+  padding-left: 85px;
+}
+
+.quality p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #a6adb8;
+  padding-top: 30px;
+  padding-left: 85px;
+}
+
+.quality img {
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: -110px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 32px;
+  color: #83888F;
+  padding-left: 80px;
+  padding-top: 200px;
+  padding-bottom: 80px;
+  font-family: 'Fraunces';
+}
+
+.Our-headquarters-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Our-headquarters-list {
+  padding-right: 190px;
+}
+
+.Our-headquarters-list h1 {
+  font-size: 35px;
+  line-height: 36px;
+  padding-top: 47px;
+  font-family: 'Fraunces';
+  color: #333D4B;
+}
+
+.Our-headquarters-list p {
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 27px;
+}
+
+.Our-headquarters-list1 {
+  padding-right: 290px;
+}
+
+.footer-container {
+  background-color: #333D4B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 0px;
+  margin-top: 170px;
+}
+
+.footer-container .imgg {
+  padding-left: 80px;
+}
+
+.footer-links {
+  padding-right: 200px;
+}
+
+.footer-links a {
+  padding-right: 40px;
+  text-decoration: none;
+  color: #757474;
+  font-size: 18px;
+}
+
+.footer-logos {
+  padding-right: 80px;
+}
+
+.footer-logos a {
+  padding-right: 16px;
+}
+
+/* fraunces-regular - latin */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fraunces-v10-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/fraunces-v10-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/fraunces-v10-latin-regular.woff2") format("woff2"), url("../fonts/fraunces-v10-latin-regular.woff") format("woff"), url("../fonts/fraunces-v10-latin-regular.ttf") format("truetype"), url("../fonts/fraunces-v10-latin-regular.svg#Fraunces") format("svg");
+  /* Legacy iOS */
+}
+
+/* fraunces-900 - latin */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/fraunces-v10-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/fraunces-v10-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fraunces-v10-latin-900.woff2") format("woff2"), url("../fonts/fraunces-v10-latin-900.woff") format("woff"), url("../fonts/fraunces-v10-latin-900.ttf") format("truetype"), url("../fonts/fraunces-v10-latin-900.svg#Fraunces") format("svg");
+  /* Legacy iOS */
+}
+
+/* barlow-regular - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/barlow-v5-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/barlow-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/barlow-v5-latin-regular.woff2") format("woff2"), url("../fonts/barlow-v5-latin-regular.woff") format("woff"), url("../fonts/barlow-v5-latin-regular.ttf") format("truetype"), url("../fonts/barlow-v5-latin-regular.svg#Barlow") format("svg");
+  /* Legacy iOS */
+}
+
+/* barlow-italic - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/barlow-v5-latin-italic.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/barlow-v5-latin-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/barlow-v5-latin-italic.woff2") format("woff2"), url("../fonts/barlow-v5-latin-italic.woff") format("woff"), url("../fonts/barlow-v5-latin-italic.ttf") format("truetype"), url("../fonts/barlow-v5-latin-italic.svg#Barlow") format("svg");
+  /* Legacy iOS */
+}
+/*# sourceMappingURL=main.css.map */
